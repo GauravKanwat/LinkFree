@@ -1,4 +1,4 @@
-import UserMilestone from "../../../components/user/UserMilestone";
+import UserMilestone from "@components/user/UserMilestone";
 
 export default {
   component: UserMilestone,
@@ -15,10 +15,10 @@ export const BasicMilestone = {
   args: {
     milestone: {
       title: "My first Storybook",
-      date: "October 2022",
-      description: "My first Storybook for the LinkFree project",
+      date: "October 1 2022",
+      description: "My first Storybook for the BioDrop project",
       icon: "FaGlobe",
-      color: "black",
+      color: "primary-high",
     },
   },
 };
@@ -36,7 +36,7 @@ export const BasicGoal = {
   args: {
     milestone: {
       title: "Get a full time software developer role",
-      date: "October 2023",
+      date: "October 1 2023",
       description:
         "I'm currently building projects and learning new skills and hope to start applying for jobs in summer",
       icon: "FaGlobe",
